@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="icon" href="Assets/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <img src="Assets/Logo_alura.png" alt="Logo" class="logo" />
+        </div>
+        <div class="input-section">
+            <textarea id="input" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="info">
+                <img src="Assets/icono_exclamación.svg" alt="Advertencia" class="icon">
+                <span class="text">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="buttons">
+                <button class="encrypt" onclick="encriptar()">Encriptar</button>
+                <button class="decrypt" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <div class="output-content" id="output-content">
+                <div class="no-message" id="no-message">
+                    <img src="Assets/Muñeco.svg" alt="No mensaje" />
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <textarea id="output" readonly style="display: none;"></textarea>
+                <button class="copy" onclick="copiar()" style="display: none;" id="copy-btn">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <span class="footer-text"><a href="https://github.com/yubfu" target="_blank" rel="noopener noreferrer" >Cristofher Leonardo Ramirez Vargas - 2024</a></span>
+        <img src="Assets/logo_blanco.png" alt="Logo" class="footer-logo" >
+    </div>
+</footer>
+</html>
