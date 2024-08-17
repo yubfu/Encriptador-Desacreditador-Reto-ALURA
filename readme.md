@@ -1,7 +1,4 @@
-
-<div style="text-align: center;">
-  <img src="./Assets/Logo_alura.png" alt="Texto alternativo" width="300"/>
-</div>
+![LOGO](./Assets/Logo_alura.png)
 
 # Encriptador y Desencriptador - Reto G7 ONE - ALURA
 
@@ -39,7 +36,7 @@ _los siguientes caracteres son permiritos_
 * .
 * ;
 * :
-* -
+  
 
 ## Diseño 🚀
 
@@ -47,29 +44,16 @@ El diseño del aplicativo ha sido cuidadosamente desarrollado para garantizar un
 
 **Visualización PC**
 
-![Logo](Assets/recursos/pc.png)
+![PC](Assets/recursos/pc.png)
 
 
 **Visualización Tablet's**
 
-![Logo](Assets/recursos/tablet.png)
+![TABLET](Assets/recursos/tablet.png)
 
 **Visualización SmartPhone**
 
-![Logo](Assets/recursos/phone.png)
-
-
-### Instalación 🔧
-
-* Abra Git Bash.
-
-* Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
-
-* Escriba `git clone` y pegue la dirección URL del proyecto .
-
-* git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-
+![PHONE](Assets/recursos/phone.png)
 
 ## Construido con 🛠️
 
@@ -77,6 +61,29 @@ El diseño del aplicativo ha sido cuidadosamente desarrollado para garantizar un
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
 * [VS CODE](https://code.visualstudio.com)
+
+  ### Instalación 🔧
+
+* Abra Git Bash.
+
+* Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
+
+* Escriba `git clone` y pegue la dirección URL del proyecto .
+  
+```
+git clone https://github.com/yubfu/Encriptador-Desacreditador-Reto-ALURA.git
+```
+## Proyecto 👨🏻‍💻
+
+Puedes encontrar el respositorio en 
+
+[GitHub](https://github.com/yubfu/Encriptador-Desacreditador-Reto-ALURA.git)
+
+O realizar pruebas en al aplicativo en:
+
+[GitHub Pages](https://yubfu.github.io/Encriptador-Desacreditador-Reto-ALURA/)
+
+[Vercel](https://encriptador-desacreditador-reto-alura.vercel.app)
 
 ## Autor ✒️
 
